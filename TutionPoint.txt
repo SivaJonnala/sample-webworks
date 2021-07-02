@@ -1,0 +1,186 @@
+
+
+
+Web Development 
+
+Database 
+
+Back End Development 
+
+API services 
+
+    Front End (UI) Development 
+
+        HTML CSS Javascript Typescript
+
+        Angular Vuejs Reactjs 
+
+HTML CSS
+
+-- HTML file structure 
+-- HTML Tag types - HTMLtags 
+
+
+HTML5 - Doctype (How it is before versions)
+header, anchor, image, body, link 
+p, div, ul, li, table
+
+
+<ul>
+    <li>siva</li>
+    <li>chiru</li>
+</ul>
+ece 
+    siva 
+    chiru
+cse 
+    rahim
+    teja
+
+inline - p, span
+block level - div 
+
+    Inupt, form (Form ELements in html), aside, select, option, textarea, button (type=button, submit)
+
+<form>
+<input type="text"/>
+</form>
+textbox, 
+
+
+
+CSS Weblayout
+
+master 
+dev - task-1 
+task-1 
+
+pull - commit - pull - push 
+commit - pull(dev) - push - task-1 
+
+task-1 => dev - approvers 
+
+merge - dev 
+Dev - jenkins 
+dev - qa 
+qa - prod 
+corporate 
+
+
+git software 
+
+
+logic coding 
+
+Website HTML CSS Javscript 
+SASS LESS - Angular Reactjs 
+
+DOM -Document Object Model
+
+
+Variable declaration 
+datatypes,
+functions
+
+
+keysArr.forEach((item, index) => console.log(item) );
+ name
+ age
+undefined
+keysArr.forEach((item, index) => { console.log(item, index) });
+ name 0
+ age 1
+undefined
+keysArr.forEach((item, index) => { console.log(item, obj.item) });
+ name undefined
+ age undefined
+undefined
+obj
+{
+    name: "siva", 
+    age: 30
+}
+age: 30
+name: "siva"
+__proto__: Object
+
+keysArr.forEach((item, index) => { 
+    console.log(index, item, obj[item]) 
+});
+keysArr.map((item, index) => { 
+    console.log(index, item, obj[item]) 
+    return item
+});
+keysArr.filter((item, index) => { 
+    console.log(index, item, obj[item]) 
+    return item
+});
+keysArr.filter(function (item, index) { 
+    console.log(index, item, obj[item]) 
+    return item
+});
+
+ 0 "name" "siva"
+ 1 "age" 30
+undefined
+obj.hasOwnProperty('gender')
+false
+obj.gender
+
+map
+filter
+forEach
+
+50% - test 
+notice period - 50% selection 
+tech interview - feedback - reject - accept - may be 
+manager round - architect round 
+confidence    -  knowledge 
+
+HR 
+
+doc 
+
+Salary break up 
+
+panel members 
+
+Angularjs Vuejs Reactjs 
+
+
+
+Git hub
+
+Ctrl + Shift + p
+
+commit pull push 
+
+
+Development
+
+    branch-1 
+    branch-2
+    branch-3
+
+UAT 
+
+
+PROD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
