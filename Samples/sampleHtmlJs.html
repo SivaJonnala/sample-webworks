@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action= "#" onsubmit="displayName();return false">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<ol id="myPar"></ol>
+</body>
+<script>
+    var persons = [];
+    var index = 1;
+function displayName(){
+    var fValue= document.getElementById("fname").value, lValue = document.getElementById("lname").value;
+    if(fValue && lValue){
+        var fullName = fValue + " " + lValue;
+        var parElement = document.getElementById("myPar");
+        var textNode = document.createElement("li");
+        textNode.innerHTML = fullName;
+        parElement.appendChild(textNode);
+        index++;
+
+        document.getElementById("fname").value = document.getElementById("lname").value = "";
+        document.getElementById("fname").focus();
+    }
+    else{
+        alert("Please add First Name and Last Name both");
+    }
+}
+</script>
+</html>

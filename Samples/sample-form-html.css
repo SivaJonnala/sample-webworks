@@ -1,0 +1,48 @@
+.f-name {
+    color: blue;
+}
+
+.l-name {
+    color: black;
+}
+
+form input {
+    background-color: yellow;
+}
+
+#submit {
+    font-size: 16px;
+    background-color: blueviolet;
+}
+
+form label.f-name {
+    font-size: 18px;
+}
+.common-font {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form div div span {
+    background-color: blueviolet;
+}
+
+form div div span span {
+    background-color: #c0c0c0;
+}
+/* form div div {
+    border: 2px solid #000;
+    margin: 15px;
+    padding: 15px
+} */
+select option:nth-child(2) {
+    color: chartreuse;
+}
+
+.input-form-ele {
+    width: 50%;
+}
+.input-form-ele > div {
+    width: 50%;
+    float: left;
+}
