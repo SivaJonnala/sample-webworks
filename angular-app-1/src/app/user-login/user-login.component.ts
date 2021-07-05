@@ -13,9 +13,29 @@ export class UserLoginComponent implements OnInit {
   public mail : string = 'Email';
   public message : string = 'Message';
 
-  constructor() { }
+  public user: any = {};
+  public countryCodes = [+91, +641, +441, +91, +641, +441, +91, +641, +441, +91, +641, +441]
+  public showCountryCodes: boolean = false;
+  constructor() {
+   }
 
+  ngOnchanges(): void {
+    console.log("component data changed ");
+  }
   ngOnInit(): void {
+    // this.user.firstName = "";
+    // this.user.mobileNumber = "";
+    // this.user.email = "";
+    // this.user.message = "";
+    console.log("component initialised ");
+  }
+
+  ngOnDestroy(): void {
+    console.log("component destroyed ");
+  }
+
+  submitClicked() {
+    console.log(this.user);
   }
 
 }
