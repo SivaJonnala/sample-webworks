@@ -168,3 +168,24 @@ UAT
 PROD
 
 
+Angular 
+        everything is component 
+
+        module
+
+        shared - module -  common - component  
+
+
+Angular Decoratives @Component @Module 
+
+SPA - Single page app 
+
+AuthGaurds
+
+
+ng generate component <component-name>
+cd src/app/
+
+ng generate component user-login
+
+angular life cycle hooks 
