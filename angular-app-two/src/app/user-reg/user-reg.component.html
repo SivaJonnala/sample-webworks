@@ -1,0 +1,18 @@
+<p>user-reg works!</p>
+<h1>{{ welcomeMessage }}</h1>
+<div>
+    <label>{{ firstName }}</label>
+    <input type="text" placeholder="Enter the first name" [(ngModel)]="user.firstName"><br><br>
+    <label>{{ phoneNumber }}</label>
+    <select *ngIf="showCountryCodes">
+        <option *ngFor="let code of countryCodes">{{code}}</option>
+    </select>
+    <input type="number" value="number" placeholder="Phone number"  [(ngModel)]="user.mobileNumber"><br><br>
+    <label>{{ mail }}</label>
+    <input type="email" placeholder="E-mail" [(ngModel)]="user.email"><br><br>
+    <label>{{ message }}</label>
+    <input type="text" placeholder="Enter the Message" [(ngModel)]="user.message"><br><br>
+    <input type="submit" (click)="submitClicked()">
+    <input type="button" value="Cancel">
+    <input type="reset">
+</div>

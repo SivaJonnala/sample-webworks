@@ -1,0 +1,11 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+label{
+    width: 150px;
+    display: inline-block;
+    &.bold {
+        font-weight: bold;
+    }
+}
